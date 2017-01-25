@@ -1,10 +1,6 @@
 var count = 0
 
 function secondInterval () {
-  // count++
-  // if (count === 60) {
-  //   count = 0
-  // }
   return count++
 }
 setInterval(secondInterval, 1000)

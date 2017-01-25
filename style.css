@@ -6,11 +6,15 @@
 }
 
 #hour {
+  position: relative;
 }
 
 #minute {
+  position: relative;
+  z-index: 1
 }
 
 #second {
-  transform: rotate(0deg);
+  position: relative;
+  z-index: 2
 }
