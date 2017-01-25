@@ -1,4 +1,5 @@
 #clock {
+  position: relative; /*always look for parent first and put position to it*/
 }
 
 #clock img {
@@ -6,15 +7,15 @@
 }
 
 #hour {
-  position: relative;
+  /*position: relative;*/
 }
 
 #minute {
-  position: relative;
+  /*position: relative;*/
   z-index: 1
 }
 
 #second {
-  position: relative;
+  /*posi  tion: relative;*/
   z-index: 2
 }
